@@ -1,5 +1,7 @@
-package $com.maritatf.archetypes;
+package ${groupId};
 
+import java.util.HashMap;
+import java.util.Map;
 
 import org.springframework.stereotype.Component;
 
@@ -21,7 +23,10 @@ public class SampleResource {
     @Path("/test")
     @GET
     @Produces({MediaType.APPLICATION_JSON})
-    public Response getTest() {
-        return Response.status(200).entity("test successful").build();
+    public Map getTest() {
+
+        Map m = new HashMap();
+        m.put("key1", "stuff1");
+        return m;
     }
 }
