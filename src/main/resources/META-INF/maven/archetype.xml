@@ -1,0 +1,9 @@
+<archetype>
+    <id>jersey-spring-archetype</id>
+    <sources>
+        <source>src/main/java/SampleResource.java</source>
+    </sources>
+    <testSources>
+        <source>src/test/java/SampleResourceTest.java</source>
+    </testSources>
+</archetype>
