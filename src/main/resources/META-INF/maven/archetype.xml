@@ -14,6 +14,7 @@
         <resource>src/main/webapp/WEB-INF/web.xml</resource>
         <resource>src/main/resources/spring.cfg.xml</resource>
         <resource>.gitignore</resource>
+        <resource>README.md</resource>
     </resources>
 
     <testSources>
